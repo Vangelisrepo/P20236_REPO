@@ -17,7 +17,8 @@ def nag(lst):
   mywinnums="NO WINNING NUMBERS"
  else:
   mywinnums = set(mynums) & set(result)
- print(len(mywinnums))
+ y =len(mywinnums)
+ return y
 
 
 
